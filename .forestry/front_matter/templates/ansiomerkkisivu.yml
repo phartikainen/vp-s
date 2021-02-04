@@ -1,4 +1,14 @@
 ---
 label: ansiomerkkisivu
 hide_body: false
-fields: []
+fields:
+- name: ansiomerkkilistaus
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: false
+    schema:
+      format: markdown
+  label: ansiomerkkilistaus
+  description: Laita tähän ansiomerkit...
